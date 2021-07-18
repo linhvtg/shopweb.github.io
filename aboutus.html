@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+ 
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<section>
+<style>
+  /*button search */
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: BurlyWood;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+  .row > .col {
+  padding: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+
+ 
+}
+
+/* Create four equal columns that floats next to each other */
+.col {
+  float: left;
+  
+ 
+
+}
+
+  .carousel-inner img {
+    width: 100%;
+    
+  }
+  .column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  }
+  .button:hover {
+  background-color: GhostWhite;
+}
+ .title {
+  color: grey;
+}
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*---------------*/
+.container1 {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  margin-left: 20%;
+  width: 60%;
+  padding: 20px;
+}
+
+/* Clear floats after containers */
+.container1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container1 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container1 span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container1 {
+    text-align: center;
+  }
+
+  .container1 img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+  </style>
+
+  </head>
+
+  <body>
+
+  <!-- My navbar code starts here -->
+  <body>
+
+<nav class="navbar navbar-expand-sm navbar-light" style="background-color: Cornsilk;">
+
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">
+ <img src="C:/Users/ACER/Desktop/CODING/CODING IMGAGE/stussy 1.png" style="width: 5%;">
+</a>
+  
+  <!-- Links -->
+  
+  <ul class="navbar-nav ml-auto">    
+
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="gallery.html">Gallery</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="aboutus.html">About Us</a>
+    </li>
+
+   
+
+    <!-- input form -->
+    <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+
+  </ul>
+</nav>
+
+ <br> <br> <!-- line brick -->
+  <h1 style="text-align: center;"><b>About Us</b></h1>
+  <br> <br> 
+
+  <div class="container"> <!-- container -->
+
+    <div class="row" align="center"  style="padding-bottom: 100px;" > <!-- first row -->
+
+      <div class="col"> <!-- first column -->
+      <img src="C:/Users/ACER/Desktop/CODING/CODING IMGAGE/13.jpg"width="400">
+      <h3 style="padding-top: 20px;">FOUNDER</h3>
+      <p>Shawn Stüssy is born in Southern California.
+      Stüssy officially starts a clothing brand with his friend and business partner, Frank Sinatra Jr...</p><button type="button" class="btn btn-outline-primary">View Details</button>
+      </div>
+
+      <div class="col"> <!-- second col -->
+      <img src="C:/Users/ACER/Desktop/CODING/CODING IMGAGE/17.jpg"width="400"height="360">
+      <h3 style="padding-top: 20px;">STÜSSY</h3>
+      <p>In the late ’80s and early ’90s, a brand was born from the Southern California surf scene and swept through the clothing landscape to redefine the look and ideology of casualwear...</p>
+      <button style="outline-color: white;" type="button" class="btn btn-outline-primary">View details</button>
+
+      </div>
+
+     </div>
+     <div class="row" align="center" style="padding-bottom: 100px;" >
+      <div class="col"> <!-- first column -->
+      <img src="C:/Users/ACER/Desktop/CODING/CODING IMGAGE/stussy 1.png"width="400"height="250">
+      <h3 style="padding-top: 20px;">Another</h3>
+      <p>About toys, accessories, skateboard, ...</p>
+      <button type="button" class="btn btn-outline-primary">View Details</button>
+      </div>
+  
+</div> 
+
+  <div class="row">
+  <div class="column">
+    <div class="card" style="background-color: PeachPuff;">
+      <img src="C:/Users/ACER/Desktop/CODING/CODING IMGAGE/21.jpg" alt="Shawn Stüssy" style="width:100%" height="243px">
+      <div class="container">
+        <h2 style="padding-top: 20px;">Shawn Stüssy</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>(born 1954), was a Californian manufacturer of surfboards. ... </p>
+        <p>www.stussy.com</p>
+        <p><button class="button"style="background-color: Gray; color: white;">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card" style="background-color: PeachPuff;">
+      <img src="C:/Users/ACER/Desktop/CODING/CODING IMGAGE/20.jpg" alt="Frank Sinatra Jr" style="width:100%" >
+      <div class="container">
+        <h2 style="padding-top: 20px;">Frank Sinatra Jr</h2>
+        <p class="title">CEO &amp; Co-Founder</p>
+        <p>Friend of Shawn Stüssy, partnered to sell the apparel...  </p>
+        <p>www.stussy.com</p>
+        <p><button class="button" style="background-color: Gray; color: white;">Contact</button></p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card" style="background-color: PeachPuff;">
+      <img src="C:/Users/ACER/Desktop/CODING/CODING IMGAGE/23.jpg" alt="Nigo" style="width:100%" height="242px" >
+      <div class="container">
+        <h2 style="padding-top: 20px;">Nigo</h2>
+        <p class="title">CEO &amp; Co-Founder</p>
+        <p>Japanese fashion designer, DJ, record producer and entrepreneur...  </p>
+        <p>www.stussy.com</p>
+        <p><button class="button" style="background-color: Gray; color: white;">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+
+  </section>
+
+
+<!-- testinimols--> 
+ <section>
+ 
+
+
+  <div class="container1">
+  <img src="C:/Users/ACER/Desktop/CODING/CODING IMGAGE/18.jpg" alt="Avatar" style="width:100px" align="left">
+  <p><span>James Jebbia</span> CEO at  VF Corporation.</p>
+  <p>The two of you have created a great global brand </p>
+</div>
+
+<div class="container1">
+  <img src="C:/Users/ACER/Desktop/CODING/CODING IMGAGE/19.jpg" alt="Avatar" style="width:100px" align="left">
+  <p><span >Hamilton Carhartt</span> CEO at Carhartt B.V.</p>
+  <p>This is a new creation in fashion </p>
+</div>
+
+
+</section>
+
+<!-- ------------------------------ -->
+<style>
+
+
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #DEB887;
+  color: white;
+ display: flex;
+ flex-direction: row;
+  justify-content: space-between ;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+/*.row{
+ 
+    text-align: center;
+}*/
+/* Style the icon bar links */
+.icon-bar a {
+  
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 12px;
+  width: 20px;
+  border-radius: 100px;
+  padding-top: 5px;
+
+  
+
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white; 
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+</style>
+<!-- footer -->
+
+<div class="footer" >
+
+
+   <!-- first row -->
+
+      <div class="col" style="text-align: left;padding-left: 5%;"> <!-- first column -->
+      <h4>Stussy, Inc. </h4>
+  <p> 17426 Daimler Street Irvine, CA 92614 USA </p> 
+  <p>1-(888)-978-8779</p> 
+  <p>INFO@STUSSY.COM</p>
+      </div>
+
+        
+
+
+
+
+ 
+<div class="col" style="text-align:right;padding-right: 5%; "> <!-- second col -->
+
+
+  <div class="icon-bar">
+  <a href="https://www.facebook.com/stussy" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com/stussy" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.stussy.com/" class="google"><i class="fa fa-google"></i></a>
+  <a href="https://www.youtube.com/stussyworldwide" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<p style="text-align: down;margin-top: 95px;">Disclaimer : This website has been done as a part of Assignment, this company does not exist.</p>
+
+
+</div>
+
+
+</div>
+
+ 
+
+
+
+  
+</body>
+</html>
